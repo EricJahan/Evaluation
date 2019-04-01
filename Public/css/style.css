@@ -5,16 +5,20 @@
 
 .menuBar {
     background: lightgray;
+    
+    height: 50px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 main {
+    width: 80vw;
+    margin: 0 auto;
     display: grid;
     grid-template-areas: "contentMenu contentObjets";
     grid-gap: 10px;
-    grid-template-columns: 20%;
+    grid-template-columns: 15%;
 }
 
 main > .contentMenu {
@@ -25,19 +29,35 @@ main > .contentMenu {
     display: flex;
     background: lightblue;
 }
-
+.contentObjets2 {
+    display: flex;
+    background: lightblue;
+}
 .unObjet {
     
     border: 1px solid red;
     
-    margin: 10px;
-    padding: 5px;
-    width: 32%;
-    height: 400px;
+    margin: 6px;
+    width: 32%; 
+    height: 440px;
     text-align: center;
 }
 
 .unObjet > img {
-    width: 180px;
-    height: 232px;
+    width: 178px;
+    height: 230px;
+}
+
+.unObjet > p {
+    color: darkblue;
+}
+
+footer {
+    height: 50px;
+    background-color: darkgrey;
+}
+
+footer > ul {
+    display: flex;
+    justify-content: space-around;
 }
