@@ -2,11 +2,27 @@
     Created on : 1 avr. 2019, 13:41:46
     Author     : ThunderMephisto
 */
+li {
+    list-style-type: none;
+}
+nav > ul > li >a{
+    display:block;
+    float:left;   
+    width: 150px;
+    line-height: 50px;
+    background: url(../img/bouton.png) no-repeat;
+    color: #DCDCDC;
+    text-decoration: none;
+    text-align: center;
+}
+
+nav > ul > li >a:hover {
+    background: url(../img/boutonHover.png) no-repeat;
+}
 
 .menuBar {
     background: lightgray;
-    
-    height: 50px;
+    height: 80px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -21,43 +37,41 @@ main {
     grid-template-columns: 15%;
 }
 
-main > .contentMenu {
+.contentMenu {
     background: lightgreen;
 }
 
-.contentObjets {
+.contentObjects {
     display: flex;
     background: lightblue;
 }
-.contentObjets2 {
-    display: flex;
-    background: lightblue;
-}
-.unObjet {
-    
+
+.oneObject {
+
     border: 1px solid red;
-    
+
     margin: 6px;
     width: 32%; 
     height: 440px;
     text-align: center;
 }
 
-.unObjet > img {
+.oneObject > img {
     width: 178px;
     height: 230px;
 }
 
-.unObjet > p {
+.oneObject > p {
     color: darkblue;
 }
 
 footer {
     height: 50px;
-    background-color: darkgrey;
+    background-color: black;
 }
 
 footer > ul {
     display: flex;
     justify-content: space-around;
 }
+
