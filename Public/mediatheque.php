@@ -8,15 +8,7 @@
     </head>
     <body>
         <!-- NavBar -->
-        <nav>
-            <ul class="navBar">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="mediatheque.html">Mediateque</a></li>
-                <li><a href="inscription.html">Inscription</a></li>
-                <li><a href="connexion.html">Connexion</a></li>
-                <li><a href="panier.html">Panier</a></li>
-            </ul>
-        </nav>
+        <?php include 'incPHP/navbar.php'; ?>
         <!-- /NavBar -->
 
         <!-- Content -->
@@ -66,13 +58,7 @@
         <!-- /Content -->
 
         <!-- Footer -->
-        <footer>
-            <ul>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="infos.html">Infos Légales</a></li>
-                <li><a href="politics.html">Politique de confidentialité</a></li>
-            </ul>
-        </footer>
+        <?php include 'incPHP/footer.php'; ?>
         <!-- /Footer -->
 
     </body>

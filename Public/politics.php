@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Mediathèque</title>
+        <title>Politics</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="css/style.css" rel="stylesheet" type="text/css"/>
@@ -11,16 +11,12 @@
         <?php include 'incPHP/navbar.php'; ?>
         <!-- /NavBar -->
 
-        <!-- Content -->
-        <main>
+        <!-- Content --> 
 
-
-        </main>
         <!-- /Content -->
 
         <!-- Footer -->
         <?php include 'incPHP/footer.php'; ?>
         <!-- /Footer -->
-
     </body>
 </html>
