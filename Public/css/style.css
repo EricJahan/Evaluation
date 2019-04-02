@@ -5,22 +5,34 @@
 li {
     list-style-type: none;
 }
+nav {
+
+}
+
+nav > ul > li {
+}
+
 nav > ul > li >a{
     display:block;
-    float:left;   
-    width: 150px;
+    float:left;
+    width: 180px;
+    height: 60px;
+    margin: 15px;
     line-height: 50px;
-    background: url(../img/bouton.png) no-repeat;
-    color: #DCDCDC;
+    font-size: 30px;
+    color: white;
     text-decoration: none;
     text-align: center;
 }
 
 nav > ul > li >a:hover {
-    background: url(../img/boutonHover.png) no-repeat;
+    border-bottom: 4px solid lightsalmon;
 }
 
-.menuBar {
+nav > ul > li > a > img {
+}
+
+.navBar {
     background: lightgray;
     height: 80px;
     display: flex;
