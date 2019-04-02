@@ -12,7 +12,7 @@
         <!-- /NavBar -->
 
         <!-- Content -->
-        <main>
+        <main class="media-main">
             <!-- Choix Catégories -->
             <section class="contentMenu">Catégories :
                 <ul>
